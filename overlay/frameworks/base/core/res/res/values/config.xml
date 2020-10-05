@@ -68,4 +68,7 @@
 
     <!-- Controls whether system buttons use all caps for text -->
     <bool name="config_buttonTextAllCaps">false</bool>
+
+    <!-- If this is true, long press on power button will be available from the non-interactive state -->
+    <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
 </resources>
