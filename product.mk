@@ -1,3 +1,6 @@
+# Inherit vendor submodules
+$(call inherit-product, vendor/extra/overlay/overlay.mk)
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
@@ -14,9 +17,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Enable one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
-
-# Overlays
-PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Packages
 PRODUCT_PACKAGES += \
