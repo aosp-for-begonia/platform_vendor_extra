@@ -18,6 +18,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
 
+# Google apps and services
+WITH_GMS ?= true
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/google/gms/config.mk)
+endif
+
 # Packages
 PRODUCT_PACKAGES += \
     RemovePackages \
