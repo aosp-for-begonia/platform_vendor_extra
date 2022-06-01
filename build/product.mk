@@ -4,6 +4,7 @@
 #
 
 # Inherit vendor submodules
+$(call inherit-product, vendor/extra/build/fonts.mk)
 $(call inherit-product, vendor/extra/build/packages.mk)
 $(call inherit-product, vendor/extra/build/permissions.mk)
 $(call inherit-product, vendor/extra/build/properties.mk)
