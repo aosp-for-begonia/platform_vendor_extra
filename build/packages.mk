@@ -1,3 +1,8 @@
+#
+# Copyright (C) 2022 Elias E. Gheeraert
+# SPDX-License-Identifer: Apache-2.0
+#
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \

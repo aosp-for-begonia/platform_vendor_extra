@@ -1,3 +1,8 @@
+#
+# Copyright (C) 2022 Elias E. Gheeraert
+# SPDX-License-Identifer: Apache-2.0
+#
+
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
