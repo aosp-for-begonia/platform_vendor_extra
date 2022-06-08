@@ -80,4 +80,12 @@
          1: 2 button mode (back, home buttons + swipe up for overview)
          2: gestures only for back, home and overview -->
     <integer name="config_navBarInteractionMode">2</integer>
+
+    <!-- Name of a font family to use for body text. -->
+    <string name="config_bodyFontFamily">opposans</string>
+    <string name="config_bodyFontFamilyMedium">opposans-medium</string>
+
+    <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
+    <string name="config_headlineFontFamily">opposans</string>
+    <string name="config_headlineFontFamilyMedium">opposans-medium</string>
 </resources>
